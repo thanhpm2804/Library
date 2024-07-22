@@ -1,0 +1,96 @@
+﻿<Page x:Class="Library.ReservationRecordsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Library"
+      mc:Ignorable="d" 
+      d:DesignHeight="780" d:DesignWidth="630"
+      Title="ReservationRecordsPage">
+    <Page.Resources>
+        <local:DateOnlyToDateTimeConverter x:Key="DateOnlyToDateTimeConverter"/>
+    </Page.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/a1.jpg"/>
+        </Grid.Background>
+        <Label x:Name="lbBookTitle_Copy" Foreground="Black" FontWeight="DemiBold" HorizontalAlignment="Center"
+    FontSize="20" Content="Reservations records" />
+        <DockPanel VerticalAlignment="Top" Margin="0,50,0,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!--StackPanel for Label and TextBox controls-->
+                <StackPanel Orientation ="Vertical"
+ HorizontalAlignment="Center" Width="610">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="White" Offset="0.193"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+                    <Label Name="lbBookTitle" Foreground="#FF00FFF6" FontWeight="DemiBold"
+ FontSize="20" Content="Reservation Information" HorizontalAlignment="Center" />
+                    <Label Name="lbBookID" Content="Book ID"/>
+                    <TextBox Name="txtBookID" HorizontalAlignment="Stretch"
+Height="25"
+Text="{Binding Path=Book.BookId, Mode=OneWay}" 
+DataContext="{Binding ElementName=lvBook, 
+Path=SelectedItem}" 
+                             IsReadOnly="True"/>
+                    <Label Name="lbTitle" Content="Title"/>
+                    <TextBox Name="txtTitle" HorizontalAlignment="Stretch" IsReadOnly="True"
+ Height="25"
+ Text="{Binding Path=Book.Title, Mode=OneWay}" 
+ DataContext="{Binding ElementName=lvBook, 
+ Path=SelectedItem}" />
+                    <Label Name="lbAuthor" Content="Author" />
+                    <TextBox Name="txtAuthor" HorizontalAlignment="Stretch" IsReadOnly="True"
+ Height="25"
+Text="{Binding Path=Book.Author, Mode=OneWay}"
+ DataContext="{Binding ElementName=lvBook,
+ Path=SelectedItem}" />
+                    <Label Name="lbReservedDate" Content="Reserved Date" />
+                    <TextBox Name="txtDateReserved" HorizontalAlignment="Stretch" IsReadOnly="True"
+                        Height="25"
+                        Text="{Binding Path=ReservationDate, Mode=OneWay}"
+                        DataContext="{Binding ElementName=lvBook,
+                        Path=SelectedItem}" />
+                    <Label Name="lbReturnDate" Content="Return Date" />
+                    <DatePicker Name="txtDueDate"
+                    SelectedDateFormat="Short">
+
+                    </DatePicker>
+                </StackPanel>
+                <!--StackPanel for Button controls-->
+                <StackPanel Orientation="Horizontal"
+ HorizontalAlignment="Left" Margin="30,286,0,20" Grid.RowSpan="3">
+                    <Button x:Name="btnBorrow" Margin="10" Width="80" Content="Borrow"
+ Click="btnBorrow_Click" Background="#FFB7E090" Height="20"/>
+                    <Button x:Name="btnRemove" Margin="10" Width="80" Content="Remove"
+Click="btnRemove_Click" Background="#FFF7B0B0" Height="20"/>
+                </StackPanel>
+                <!-- ListView control-->
+                <ListView Grid.Row="2" Name="lvBook" Width="610" Height="Auto" Margin="10,14,10,-14" Grid.RowSpan="2" >
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Book ID" Width="100"
+DisplayMemberBinding="{Binding Path=Book.BookId }"/>
+                            <GridViewColumn Header="Title" Width="200"
+ DisplayMemberBinding="{Binding Path=Book.Title }"/>
+                            <GridViewColumn Header="Author" Width="200"
+                                            DisplayMemberBinding="{Binding Path=Book.Author}"/>
+                            <GridViewColumn Header="Reserved date" Width="100"
+                DisplayMemberBinding="{Binding Path=ReservationDate}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <!-- Button control-->
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Page>

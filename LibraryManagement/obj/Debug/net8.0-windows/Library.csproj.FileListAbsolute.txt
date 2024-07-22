@@ -1,0 +1,6 @@
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\Library\LibraryManagement\obj\Debug\net8.0-windows\Library.csproj.AssemblyReference.cache
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\Library\LibraryManagement\obj\Debug\net8.0-windows\LoginWindow.g.cs
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\Library\LibraryManagement\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\Library\LibraryManagement\obj\Debug\net8.0-windows\App.g.cs
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\Library\LibraryManagement\obj\Debug\net8.0-windows\Library_MarkupCompile.cache
+E:\Program Files\baby harvesting demons\Summer 2024\PRN212\Library\LibraryManagement\obj\Debug\net8.0-windows\Library_MarkupCompile.lref

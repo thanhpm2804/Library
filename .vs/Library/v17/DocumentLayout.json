@@ -1,0 +1,367 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\BookPRN\\Library-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|d:\\fpt\\bookprn\\library-main\\library\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|d:\\fpt\\bookprn\\library-main\\library\\dateonlytodatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\dateonlytodatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C4EFDA-0EA8-42E5-95FE-769BE02DE907}|test1\\test1.csproj|d:\\fpt\\bookprn\\library-main\\test1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{55C4EFDA-0EA8-42E5-95FE-769BE02DE907}|test1\\test1.csproj|solutionrelative:test1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\bookmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\bookmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\manageuserspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\manageuserspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\reservationrecordspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\reservationrecordspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\reservationrecordspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\reservationrecordspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\commentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\commentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\borrowrecordspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\borrowrecordspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\borrowpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\borrowpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\commentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\commentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\library.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|D:\\FPT\\BookPRN\\Library-main\\library\\models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332ED6E4-E369-46B9-8573-90D6459B3652}|Library\\Library.csproj|solutionrelative:library\\models\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C4EFDA-0EA8-42E5-95FE-769BE02DE907}|test1\\test1.csproj|D:\\FPT\\BookPRN\\Library-main\\test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C4EFDA-0EA8-42E5-95FE-769BE02DE907}|test1\\test1.csproj|solutionrelative:test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 246,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DateOnlyToDateTimeConverter.cs",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\DateOnlyToDateTimeConverter.cs",
+              "RelativeDocumentMoniker": "Library\\DateOnlyToDateTimeConverter.cs",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\DateOnlyToDateTimeConverter.cs",
+              "RelativeToolTip": "Library\\DateOnlyToDateTimeConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T15:34:24.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\test1\\appsettings.json",
+              "RelativeDocumentMoniker": "test1\\appsettings.json",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\test1\\appsettings.json",
+              "RelativeToolTip": "test1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T15:34:11.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationRecordsPage.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\ReservationRecordsPage.xaml",
+              "RelativeDocumentMoniker": "Library\\ReservationRecordsPage.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\ReservationRecordsPage.xaml",
+              "RelativeToolTip": "Library\\ReservationRecordsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:09:26.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\UserWindow.xaml",
+              "RelativeDocumentMoniker": "Library\\UserWindow.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\UserWindow.xaml",
+              "RelativeToolTip": "Library\\UserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:09:25.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\App.xaml",
+              "RelativeDocumentMoniker": "Library\\App.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\App.xaml",
+              "RelativeToolTip": "Library\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:08:02.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Library",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\Library.csproj",
+              "RelativeDocumentMoniker": "Library\\Library.csproj",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\Library.csproj",
+              "RelativeToolTip": "Library\\Library.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-22T13:55:36.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Library\\AssemblyInfo.cs",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\AssemblyInfo.cs",
+              "RelativeToolTip": "Library\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:53:13.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "Library\\AdminWindow.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\AdminWindow.xaml",
+              "RelativeToolTip": "Library\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T13:42:18.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageUsersPage.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\ManageUsersPage.xaml",
+              "RelativeDocumentMoniker": "Library\\ManageUsersPage.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\ManageUsersPage.xaml",
+              "RelativeToolTip": "Library\\ManageUsersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:09:31.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\appsettings.json",
+              "RelativeDocumentMoniker": "Library\\appsettings.json",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\appsettings.json",
+              "RelativeToolTip": "Library\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T13:32:13.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Library\\LoginWindow.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\LoginWindow.xaml",
+              "RelativeToolTip": "Library\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:09:33.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommentPage.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\CommentPage.xaml",
+              "RelativeDocumentMoniker": "Library\\CommentPage.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\CommentPage.xaml",
+              "RelativeToolTip": "Library\\CommentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:09:36.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BorrowRecordsPage.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\BorrowRecordsPage.xaml",
+              "RelativeDocumentMoniker": "Library\\BorrowRecordsPage.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\BorrowRecordsPage.xaml",
+              "RelativeToolTip": "Library\\BorrowRecordsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:09:38.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BorrowPage.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\BorrowPage.xaml",
+              "RelativeDocumentMoniker": "Library\\BorrowPage.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\BorrowPage.xaml",
+              "RelativeToolTip": "Library\\BorrowPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:09:40.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\AdminWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "Library\\AdminWindow.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAADgvyoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T13:43:10.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookManagementPage.xaml",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\BookManagementPage.xaml",
+              "RelativeDocumentMoniker": "Library\\BookManagementPage.xaml",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\BookManagementPage.xaml",
+              "RelativeToolTip": "Library\\BookManagementPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T14:09:42.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CommentPage.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\CommentPage.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\CommentPage.xaml.cs",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\CommentPage.xaml.cs",
+              "RelativeToolTip": "Library\\CommentPage.xaml.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAawI0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T14:41:22.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationRecordsPage.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\ReservationRecordsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\ReservationRecordsPage.xaml.cs",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\ReservationRecordsPage.xaml.cs",
+              "RelativeToolTip": "Library\\ReservationRecordsPage.xaml.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAawHMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T14:59:12.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LibraryContext.cs",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\Models\\LibraryContext.cs",
+              "RelativeDocumentMoniker": "Library\\Models\\LibraryContext.cs",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\Models\\LibraryContext.cs",
+              "RelativeToolTip": "Library\\Models\\LibraryContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:31:42.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\Library\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Library\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\Library\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "Library\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:31:24.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\BookPRN\\Library-main\\test1\\Program.cs",
+              "RelativeDocumentMoniker": "test1\\Program.cs",
+              "ToolTip": "D:\\FPT\\BookPRN\\Library-main\\test1\\Program.cs",
+              "RelativeToolTip": "test1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T01:30:07.057Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

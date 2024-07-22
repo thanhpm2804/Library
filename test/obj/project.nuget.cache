@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "z0/6/Bs2qB2O1fUYnFd55/3lO1AVxjpgutf/3BIsqD0H4a1MD+aogMe6E8kfhGBwiPfaER6BuH6hOOGC4oWjmw==",
+  "success": false,
+  "projectFilePath": "E:\\Program Files\\baby harvesting demons\\Summer 2024\\PRN212\\Library\\test\\test.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Library is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Library supports: net8.0-windows7.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Library",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

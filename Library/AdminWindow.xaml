@@ -1,0 +1,57 @@
+﻿<Window x:Class="Library.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Library"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="830" Width="680"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None">
+    <Grid>
+        <Button Content="Manage books" HorizontalAlignment="Left" Margin="30,10,0,0" 
+                VerticalAlignment="Top" Height="30" Width="90" 
+                Click="btnManageBooks_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="0.65"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Manage users" HorizontalAlignment="Left" Margin="150,10,0,0" 
+        VerticalAlignment="Top" Height="30" Width="90" 
+        Click="btnManageUsers_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="0.65"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="450,10,0,0" 
+    VerticalAlignment="Top" Height="30" Width="90" 
+    Click="btnLogOut_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="0.69"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="560,10,0,0" 
+    VerticalAlignment="Top" Height="30" Width="90" 
+    Click="btnClose_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="0.65"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Frame x:Name="frMain" NavigationUIVisibility="Visible" Margin="0,50,0,0" Navigated="frMain_Navigated_1"/>
+        
+
+
+    </Grid>
+</Window>

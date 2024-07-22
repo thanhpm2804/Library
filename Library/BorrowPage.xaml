@@ -1,0 +1,91 @@
+﻿<Page x:Class="Library.BorrowPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Library"
+      mc:Ignorable="d" 
+      d:DesignHeight="780" d:DesignWidth="630"
+      Title="BorrowPage"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+    <Page.Resources>
+        <System:Double x:Key="GradientStopOffset1">0</System:Double>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/a1.jpg"/>
+        </Grid.Background>
+        <Label x:Name="lbBookTitle_Copy" Foreground="Black" FontWeight="DemiBold" HorizontalAlignment="Center"
+    FontSize="20" Content="Borrow book" Margin="0,-10,0,10" />
+        <DockPanel VerticalAlignment="Top" Margin="0,50,0,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!--StackPanel for Label and TextBox controls-->
+                <StackPanel Orientation ="Vertical"
+ HorizontalAlignment="Center" Width="610">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Offset="{DynamicResource GradientStopOffset1}" Color="Black"/>
+                            <GradientStop Color="White" Offset="1"/>
+                            <GradientStop Color="#FFCFCFCF" Offset="0.208"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+                    <Label Name="lbBookTitle" Foreground="#FF9FE5CC" FontWeight="DemiBold"  
+ FontSize="20" Content="Book Information" HorizontalAlignment="Center" />
+                    <Label Name="lbBookID" Content="Book ID" Width="610"/>
+                    <TextBox Name="txtBookID" HorizontalAlignment="Stretch"
+Height="25"
+Text="{Binding Path=BookId, Mode=OneWay}" 
+DataContext="{Binding ElementName=lvBook, 
+Path=SelectedItem}" 
+                             IsReadOnly="True"/>
+                    <Label Name="lbTitle" Content="Title"/>
+                    <TextBox Name="txtTitle" HorizontalAlignment="Stretch" IsReadOnly="True"
+ Height="25"
+ Text="{Binding Path=Title, Mode=OneWay}" 
+ DataContext="{Binding ElementName=lvBook, 
+ Path=SelectedItem}" />
+                    <Label Name="lbAuthor" Content="Author" />
+                    <TextBox Name="txtAuthor" HorizontalAlignment="Stretch" IsReadOnly="True"
+ Height="25"
+Text="{Binding Path=Author, Mode=OneWay}"
+ DataContext="{Binding ElementName=lvBook,
+ Path=SelectedItem}" />
+                    <Label Name="lbReturnDate" Content="Return Date" Background="#FFE9C0C0" />
+                    <DatePicker Name="txtDueDate"
+            SelectedDateFormat="Short">
+
+                    </DatePicker>
+                </StackPanel>
+                <!--StackPanel for Button controls-->
+                <StackPanel Orientation="Horizontal"
+ HorizontalAlignment="Left" Margin="30,234,0,5" Grid.RowSpan="2">
+                    <Button x:Name="btnBorrow" Margin="10" Width="80" Content="Borrow"
+ Click="btnBorrow_Click" Background="#FF8DEE9D"/>
+                    <Button x:Name="btnReserve" Margin="10" Width="80" Content="Reserve"
+Click="btnReserve_Click" Background="#FF73E8DB"/>
+                </StackPanel>
+                <!-- ListView control-->
+                <ListView Grid.Row="2" Name="lvBook" Width="610" Height="Auto" >
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Book ID" Width="100"
+DisplayMemberBinding="{Binding Path=BookId }"/>
+                            <GridViewColumn Header="Title" Width="200"
+ DisplayMemberBinding="{Binding Path=Title }"/>
+                            <GridViewColumn Header="Author" Width="200"
+                                            DisplayMemberBinding="{Binding Path=Author}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <!-- Button control-->
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Page>

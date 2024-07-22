@@ -1,0 +1,89 @@
+﻿<Page x:Class="Library.BookManagementPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Library"
+      mc:Ignorable="d" 
+      d:DesignHeight="780" d:DesignWidth="630"
+      Title="BookManagementPage">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/a2.jpg"/>
+        </Grid.Background>
+        <DockPanel VerticalAlignment="Top" Margin="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!--StackPanel for Label and TextBox controls-->
+                <StackPanel Orientation ="Vertical"
+ HorizontalAlignment="Center" Width="628">
+                    <StackPanel.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="White" Offset="0.172"/>
+                        </LinearGradientBrush>
+                    </StackPanel.Background>
+                    <Label Name="lbBookTitle" Foreground="#FF47F4E1" FontWeight="DemiBold"
+ FontSize="20" Content="Book Information" HorizontalAlignment="Center" />
+                    <Label Name="lbBookID" Content="Book ID"/>
+                    <TextBox Name="txtBookID" HorizontalAlignment="Stretch"
+Height="25"
+Text="{Binding Path=BookId, Mode=OneWay}" 
+DataContext="{Binding ElementName=lvBook, 
+Path=SelectedItem}" 
+                             IsReadOnly="True"/>
+                    <Label Name="lbTitle" Content="Title"/>
+                    <TextBox Name="txtTitle" HorizontalAlignment="Stretch"
+ Height="25"
+ Text="{Binding Path=Title, Mode=OneWay}" 
+ DataContext="{Binding ElementName=lvBook, 
+ Path=SelectedItem}" />
+                    <Label Name="lbAuthor" Content="Author" />
+                    <TextBox Name="txtAuthor" HorizontalAlignment="Stretch"
+ Height="25"
+Text="{Binding Path=Author, Mode=OneWay}"
+ DataContext="{Binding ElementName=lvBook,
+ Path=SelectedItem}" />
+                    <Label Name="lbQuantity" Content="Quantity" />
+                    <TextBox Name="txtQuantity" HorizontalAlignment="Stretch"
+ Height="25"
+Text="{Binding Path=Quantity, Mode=OneWay}"
+ DataContext="{Binding ElementName=lvBook,
+ Path=SelectedItem}" />
+                </StackPanel>
+                <!--StackPanel for Button controls-->
+                <StackPanel Grid.Row="1" Orientation="Horizontal"
+ HorizontalAlignment="Left">
+                    <Button x:Name="btnInsert" Margin="10" Width="80" Content="Insert"
+ Click="btnInsert_Click" Background="#FFCAF3AA"/>
+                    <Button x:Name="btnUpdate" Margin="10" Width="80" Content="Update"
+ Click="btnUpdate_Click" Background="#FF9DE8C8"/>
+                    <Button x:Name="btnDelete" Margin="10" Width="80" Content="Delete"
+ Click="btnDelete_Click" Background="#FFFC6357"/>
+                </StackPanel>
+                <!-- ListView control-->
+                <ListView Grid.Row="2" Name="lvBook" Width="Auto" Height="Auto" >
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Book ID" Width="100"
+DisplayMemberBinding="{Binding Path=BookId }"/>
+                            <GridViewColumn Header="Title" Width="200"
+ DisplayMemberBinding="{Binding Path=Title }"/>
+                            <GridViewColumn Header="Author" Width="200"
+                                            DisplayMemberBinding="{Binding Path=Author}"/>
+                            <GridViewColumn Header="Quantity" Width="100"
+ DisplayMemberBinding="{Binding Path=Quantity }"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <!-- Button control-->
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Page>
